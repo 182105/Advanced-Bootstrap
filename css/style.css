@@ -1,13 +1,20 @@
 @charset "UTF-8";
-/** {
-margin: 0;
-padding: 0;
-}
-*/
+
 
 @font-face {
   font-family: 'Montserrat', sans-serif;
 }
+
+
+header {
+    background-image: url('../images/Calacatta-Marble.jpg');    
+    padding: 60px;
+    color: #ff6a7e;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Odibee Sans', cursive;
+}
+
 
 .nav {
     font-family: 'Montserrat', sans-serif;
@@ -64,33 +71,11 @@ padding: 0;
     ) 1 100%;
 }   
 
-#whatido {
-	padding: 60px;
-	
-}
-
-
-
-header {
-    background-image: url('../images/Calacatta-Marble.jpg');	
-    padding: 60px;
-    color: #ff6a7e;
-    text-align: center;
-    font-size: 70px;
-    font-family: 'Odibee Sans', cursive;
-}
-
 footer {
-	padding: 60px;
+    padding: 60px;
     text-align: center;
     color: #333333;
-	font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-	background-image: url('../images/Calacatta-Marble.jpg');		
-}
-
-.footer-content {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    background-image: url('../images/Calacatta-Marble.jpg');        
 }
