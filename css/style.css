@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/** {
+margin: 0;
+padding: 0;
+}
+*/
+
+@font-face {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    font color: #ff6a7e;
+
+}
+
+.PageBody {
+  /*background-color: #333333;*/
+    background-image: url(../Images/Pink.jpeg);
+    background-repeat: repeat;
+    place-items: center;
+    height: 100%;
+    margin:0;
+    text-align: center;
+    width: 100%;
+}
+
+.PageBody h1 {
+	color:#ff6a7e;
+	font-family: 'Odibee Sans', cursive;
+}
+
+.PageBody h2 {
+	color: #ff6a7e
+	}
+
+#infoContainer {
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+
+#containerBorder1 {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      pink, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
+
+#containerBorder2 {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      pink, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
+
+#whatido {
+	padding: 60px;
+	
+}
+
+
+
+header {
+    background-image: url('../images/Calacatta-Marble.jpg');	
+    padding: 60px;
+    color: #ff6a7e;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Odibee Sans', cursive;
+}
+
+footer {
+	padding: 60px;
+    text-align: center;
+    color: #333333;
+	font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+	background-image: url('../images/Calacatta-Marble.jpg');		
+}
+
+.footer-content {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
