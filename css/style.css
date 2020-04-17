@@ -18,8 +18,7 @@ header {
 
 .nav {
     font-family: 'Montserrat', sans-serif;
-    font color: #ff6a7e;
-
+    color: #ff6a7e;
 }
 
 .PageBody {
@@ -39,7 +38,7 @@ header {
 }
 
 .PageBody h2 {
-	color: #ff6a7e
+	color: #ff6a7e;
 	}
 
 #infoContainer {
