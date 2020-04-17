@@ -70,6 +70,22 @@ header {
     ) 1 100%;
 }   
 
+#containerBorder3 {
+    box-sizing: border-box;
+}   
+
+#containerBorder4 {
+    box-sizing: border-box;
+    border-width: 3px ;
+    border-style: solid;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      pink, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+}   
+
 footer {
     padding: 60px;
     text-align: center;
